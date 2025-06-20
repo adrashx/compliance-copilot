@@ -1,0 +1,18 @@
+/compliance-copilot
+  /apps
+    /web      # Next.js frontend
+      /pages
+        index.tsx
+        /api/auth/[...nextauth].ts
+    /api      # Express backend API
+      /src
+        index.ts
+  /packages
+    /db       # Prisma ORM & schema
+      schema.prisma
+  .env.example
+  .gitignore
+  package.json
+  turbo.json
+  README.md
+  .github/workflows/ci.yml
