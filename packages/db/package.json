@@ -1,0 +1,10 @@
+{
+  "name": "@compliance-copilot/db",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^5.14.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0"
+  }
+}
