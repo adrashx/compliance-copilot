@@ -1,0 +1,21 @@
+{
+  "name": "@compliance-copilot/api",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "openai": "^4.51.0",
+    "@prisma/client": "^5.14.0",
+    "stripe": "^14.21.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.0"
+  }
+}
